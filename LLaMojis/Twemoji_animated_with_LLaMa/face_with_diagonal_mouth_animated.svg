@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" xml:space="preserve">
+  <style>
+    /* Make the smile for 2 seconds, then reset for 1 second */
+    @keyframes smile {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-1px); }
+    }
+    /* Make the smile go up for 0.5 seconds, then down for 0.5 seconds */
+    @keyframes smile-move {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-1px); }
+    }
+    /* Make the eyes animate looking left and right for 2 seconds, then reset for 1 second */
+    @keyframes look-around {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-0.5px); }
+      75% { transform: translateX(0.5px); }
+    }
+    /* Animate the eyes blinking */
+    @keyframes blink {
+      0%, 90%, 100% { opacity: 1; }
+      92%, 95% { opacity: 0; }
+    }
+    /* Set the animations on the mouth and the eyes */
+    #mouth {
+      animation: smile 3s ease-in-out infinite, smile-move 1s ease-in-out infinite;
+      transform-origin: center;
+    }
+    #left-eye, #right-eye {
+      animation: look-around 3s ease-in-out infinite, blink 5s ease-in-out infinite;
+    }
+  </style>
+  <path id="face" fill="#FFCC4D" d="M36 18c0 9.941-8.059 18-18 18S0 27.941 0 18 8.059 0 18 0s18 8.059 18 18"/>
+  <ellipse id="left-eye" fill="#65471B" cx="11.5" cy="15.5" rx="2.5" ry="3.5"/>
+  <ellipse id="right-eye" fill="#65471B" cx="24.5" cy="15.5" rx="2.5" ry="3.5"/>
+  <path id="mouth" fill="#65471B" d="m11.209 27.978 14-3a1.001 1.001 0 0 0-.419-1.957l-14 3a1.001 1.001 0 0 0 .419 1.957z"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <style>
+    @keyframes rotate-bottle {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(30deg); }
+    }
+    @keyframes brush-movement {
+      0%, 100% { transform: translateX(0px); }
+      50% { transform: translateX(3px); }
+    }
+    #bottle-group-1 {
+      transform-origin: 4px 32px;
+      animation: rotate-bottle 2s ease-in-out infinite;
+    }
+    #bottle-group-2 {
+      transform-origin: 12px 32px;
+      animation: rotate-bottle 2s ease-in-out infinite;
+      animation-delay: 0.2s;
+    }
+    #bottle-group-3 {
+      transform-origin: 20px 32px;
+      animation: rotate-bottle 2s ease-in-out infinite;
+      animation-delay: 0.4s;
+    }
+    #bottle-group-4 {
+      transform-origin: 28px 32px;
+      animation: rotate-bottle 2s ease-in-out infinite;
+      animation-delay: 0.6s;
+    }
+    #brush {
+      animation: brush-movement 1s ease-in-out infinite;
+    }
+  </style>
+  <g id="bottle-group-1">
+    <path fill="#FFDC5D" d="M27 36v-4s0-4 4-4 4 4 4 4v4h-8"/>
+    <path fill="#DD2E44" d="M16 24c0-1.657 0-8-3-8s-3 6.343-3 8 1.343 3 3 3 3-1.343 3-3"/>
+  </g>
+  <g id="bottle-group-2">
+    <path fill="#FFDC5D" d="M18 36v-9s0-4 4-4 4 4 4 4v9h-8"/>
+    <path fill="#DD2E44" d="M7 27c0-1.657 0-8-3-8s-3 6.343-3 8 1.343 3 3 3 3-1.343 3-3"/>
+  </g>
+  <g id="bottle-group-3">
+    <path fill="#FFDC5D" d="M9 36V24s0-4 4-4 4 4 4 4v12H9"/>
+    <path fill="#DD2E44" d="M-2 24c0-1.657 0-8-3-8s-3 6.343-3 8 1.343 3 3 3 3-1.343 3-3"/>
+  </g>
+  <g id="bottle-group-4">
+    <path fill="#FFDC5D" d="M0 36v-9s0-4 4-4 4 4 4 4v9H0"/>
+    <path fill="#DD2E44" d="M25 27c0-1.657 0-8-3-8s-3 6.343-3 8 1.344 3 3 3c1.657 0 3-1.343 3-3"/>
+  </g>
+  <g id="brush">
+    <path fill="#DD2E44" d="M13 16v4h2s2 0 6-4l-2-2s-2 2-6 2z"/>
+    <path fill="#8899A6" d="M19 14l8-8 2 2-8 8z"/>
+    <path fill="#8899A6" d="M27 6s-2-2 0-4l2-2h7v5l-3 3c-2 2-4 0-4 0l-2-2z"/>
+  </g>
+</svg>
