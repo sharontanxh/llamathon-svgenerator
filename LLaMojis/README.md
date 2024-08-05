@@ -16,6 +16,8 @@ Guess which prompt we used to create the LLaMoji!
 
 ## Twemoji animated with LLaMa
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    <img src="./Twemoji_animated_with_LLaMa/woman_getting_massage_animated.svg" alt="anxious_face_with_sweat" style="width: 100px; height: 100px;"/>
+    <img src="./Twemoji_animated_with_LLaMa/skier_animated.svg" alt="anxious_face_with_sweat" style="width: 100px; height: 100px;"/>
     <img src="./Twemoji_animated_with_LLaMa/anxious_face_with_sweat_animated.svg" alt="anxious_face_with_sweat" style="width: 100px; height: 100px;"/>
     <img src="./Twemoji_animated_with_LLaMa/astonished_face_animated.svg" alt="astonished_face" style="width: 100px; height: 100px;"/>
     <img src="./Twemoji_animated_with_LLaMa/backhand_index_pointing_left_animated.svg" alt="backhand_index_pointing_left" style="width: 100px; height: 100px;"/>
