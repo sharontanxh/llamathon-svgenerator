@@ -8,10 +8,10 @@ import os
 async def llama(session, prompt):
     response = ""
     async with session.post(
-            "https://model-7wlxp82w.api.baseten.co/production/predict",
+            "https://MODEL_HERE.api.baseten.co/production/predict",
             headers={
                 "Authorization":
-                "Api-Key QLk2AhIS.ay5p1g5DPDeAcNqveNziEOmh2hW42b6Q"
+                "API_KEY_HERE"
             },
             json={
                 "prompt": prompt,
