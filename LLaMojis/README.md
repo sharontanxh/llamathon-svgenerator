@@ -1,7 +1,5 @@
 # LLaMojis
 
-# LLaMojis
-
 ## Emoji set recreated with LLaMa
 ![LLaMoji_food](./LLaMoji_food.png)
 Food emojis. See the full set [here](https://llamathon-svgenerator.onrender.com/LLaMojis.html) 
