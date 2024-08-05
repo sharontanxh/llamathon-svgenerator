@@ -4,10 +4,15 @@
 </div>
 
 <p align="center">
-   Generating SVGs, powered by Llama 405B.
+  Generating SVGs, powered by Llama 405B. Check out our <a href='https://www.youtube.com/watch?v=KBni-8VXi1I'>demo video!</a>
+  
 </p>
 
-- Watch our [demo video](https://www.youtube.com/watch?v=KBni-8VXi1I)
+<p align="center"></p>
+
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+<a href='https://www.youtube.com/watch?v=KBni-8VXi1I'><img src="./memphis-milano.png" alt="yawning_face" style="height: 400px;"/></a>
+</div>
 
 ## Tech stack
 
