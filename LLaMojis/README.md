@@ -2,8 +2,17 @@
 
 ## Emoji set recreated with LLaMa
 ![LLaMoji_food](./LLaMoji_food.png)
+Food emojis. See the full set [here](https://llamathon-svgenerator.onrender.com/LLaMojis.html) 
 
 LLaMojis uses LLaMa 3.1 405B to generate an SVG for each emoji in the emoji set.  
+
+## LLaMoji guessing game 
+Guess which prompt we used to create the LLaMoji!
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/sharontanxh/llamathon-svgenerator/main/LLaMojis/LLaMoji_guessing_game_UI_2.png" alt="llamoji_guessing_UI_2" style="height: 300px;"/>
+    <img src="https://raw.githubusercontent.com/sharontanxh/llamathon-svgenerator/main/LLaMojis/LLaMoji_guessing_game_UI.png" alt="llamoji_guessing_UI)" style="height: 300px;"/>
+</div>
+
 
 ## Twemoji animated with LLaMa
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
