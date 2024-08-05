@@ -42,7 +42,7 @@ Food emojis. See the full set [here](https://llamathon-svgenerator.onrender.com/
 LLaMojis uses LLaMa 3.1 405B to generate an SVG for each emoji in the emoji set.  
 
 ## LLaMoji guessing game 
-Guess which prompt we used to create the LLaMoji!
+Guess which prompt we used to create the LLaMoji! Try it out at [llamoji.replit.app](https://llamoji.replit.app/) 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
     <img src="./LLaMojis/LLaMoji_guessing_game_UI_2.png" alt="llamoji_guessing_UI_2" style="height: 200px;"/>
     <img src="./LLaMojis/LLaMoji_guessing_game_UI.png" alt="llamoji_guessing_UI)" style="height: 200px;"/>
